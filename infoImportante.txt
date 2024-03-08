@@ -1,2 +1,3 @@
 se debe instalar en el env pip3 install setuptools
 https://www.youtube.com/watch?v=N4Nz0cYuCnc link de curso sobre el tema
+para crear el archivo requirements importante al momento de subir el proyecto a render, se usa el comando pip install -r requirements.txt
