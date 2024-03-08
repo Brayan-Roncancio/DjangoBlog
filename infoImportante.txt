@@ -1,0 +1,2 @@
+se debe instalar en el env pip3 install setuptools
+https://www.youtube.com/watch?v=N4Nz0cYuCnc link de curso sobre el tema
