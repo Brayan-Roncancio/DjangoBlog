@@ -1,13 +1,10 @@
 from django.db import models
 from django.urls import reverse
 
-class Persona(models.Model):
-    nombre = models.CharField(max_length=100)
-
 class Post(models.Model):
     title = models.CharField(max_length = 200)
     author = models.ForeignKey(
-        Persona,
+        'auth.User',
         on_delete=models.CASCADE,
     )
     body = models.TextField()
